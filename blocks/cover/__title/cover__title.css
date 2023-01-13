@@ -10,3 +10,38 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .cover__title {
+    padding-top: 195px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    padding-top: 115px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cover__title {
+    font-size: 54px;
+    line-height: 1.07;
+    min-height: 116px;
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .cover__title {
+    max-width: 254px;
+    min-height: 70px;
+    /* padding-left: 17px;
+    padding-right: 17px; */
+    padding-top: 33px;
+    padding-bottom: 16px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}

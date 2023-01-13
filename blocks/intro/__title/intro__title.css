@@ -5,3 +5,29 @@
   font-size: 54px;
   line-height: 1.07;
 }
+
+
+@media screen and (max-width: 720px) {
+  .intro__title {
+    width: 100%;
+    min-height: 44px;
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+
+@media screen and (max-width: 590px) {
+  .intro__title {
+    width: 100%;
+    min-height: 35px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .intro__title {
+    min-height: 70px;
+  }
+}

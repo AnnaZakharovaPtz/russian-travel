@@ -21,7 +21,11 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img class="lead__image" src="./images/lead-image-L.png" alt="Девушка в поезде">
+        <picture>
+          <source srcset="./images/lead-image-S.png" media="(max-width: 320px)">
+          <source srcset="./images/lead-image-M.png" media="(max-width: 768px)">
+          <img class="lead__image" src="./images/lead-image-L.png" alt="Девушка в поезде">
+        </picture>
         <p class="lead__image-caption">ваша полка — верхняя</p>
       </section>
       <section class="intro">
@@ -40,7 +44,7 @@
           <li>Аэропортов 241</li>
         </ul>
       </section>
-      <section class="photo-grid">
+      <div class="photo-grid">
         <img class="photo-grid__item" src="images/photo-grid-train.png" alt="">
         <img class="photo-grid__item" src="images/photo-grid-snow-mountain.png" alt="">
         <img class="photo-grid__item" src="images/photo-grid-dog.png" alt="">
@@ -53,7 +57,7 @@
         <img class="photo-grid__item" src="images/photo-grid-brown-mountains.png" alt="">
         <img class="photo-grid__item" src="images/photo-grid-sea.png" alt="">
         <img class="photo-grid__item" src="images/photo-grid-fog2.png" alt="">
-      </section>
+      </div>
       <section class="places">
         <div class="place">
           <h2 class="place__title">Куршская коса</h2>
@@ -61,7 +65,10 @@
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
-          <img class="place__photo" src="./images/place-kosa-L.png" alt="Вид на Куршскую косу">
+          <picture>
+            <source srcset="./images/place-kosa-M.png" media="(max-width: 768px)">
+            <img class="place__photo" src="./images/place-kosa-L.png" alt="Вид на Куршскую косу">
+          </picture>
           <div class="place__description">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -80,12 +87,13 @@
             <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
               target="_blank">National Geographic</a>
           </div>
-          <img class="place__photo" src="./images/place-kosa-L.png" alt="Вид на Куршскую косу">
+          <picture>
+            <source srcset="./images/place-kolskii-M.png" media="(max-width: 768px)">
+            <img class="place__photo" src="./images/place-kolskii-L.png" alt="Зима на Кольском полуострове">
+          </picture>
           <div class="place__description">
             <p class="place__paragraph">Почти весь полуостров находится за Полярным кругом. Саамская тундра, от которой
-              на
-              юг —
-              тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
+              на юг — тайга, а на север — Ледовитый океан, прикидывающийся Баренцевым морем.</p>
             <p class="place__paragraph">Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в
               Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии.
               Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
@@ -99,7 +107,10 @@
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
           </div>
-          <img class="place__photo" src="./images/place-altai-L.png" alt="Вид на Куршскую косу">
+          <picture>
+            <source srcset="./images/place-altai-M.png" media="(max-width: 768px)">
+            <img class="place__photo" src="./images/place-altai-L.png" alt="Вид на Алтайский лес">
+          </picture>
           <div class="place__description">
             <p class="place__paragraph">Алтай — одно из красивейших мест в России.
               В первую очередь из-за гор: если ехать вдоль хребта, вы увидите склоны, усыпанные соснами, горные реки и
@@ -117,7 +128,10 @@
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
-          <img class="place__photo" src="./images/place-baikal-L.png" alt="Вид на Куршскую косу">
+          <picture>
+            <source srcset="./images/place-baikal-M.png" media="(max-width: 768px)">
+            <img class="place__photo" src="./images/place-baikal-L.png" alt="Лёд озера Байкал">
+          </picture>
           <div class="place__description">
             <p class="place__paragraph">Всем известен Байкал как крупнейшее озеро
               в мире. Многие также знают, что это самый большой источник пресной воды и одно из красивейших мест в
@@ -135,7 +149,10 @@
             <p class="place__url-heading">URL</p>
             <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
           </div>
-          <img class="place__photo" src="./images/place-karelia-L.png" alt="Вид на Куршскую косу">
+          <picture>
+            <source srcset="./images/place-karelia-M.png" media="(max-width: 768px)">
+            <img class="place__photo" src="./images/place-karelia-L.png" alt="Лесное озеро в Карелии">
+          </picture>
           <div class="place__description">
             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская
               лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских
@@ -151,6 +168,11 @@
           <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
             электричках.</p>
+          <picture>
+            <source srcset="./images/cover-background-S.png" media="(max-width: 320px)">
+            <source srcset="./images/cover-background-M.png" media="(max-width: 768px)">
+            <img class="cover__image" src="./images/cover-background-L.png" alt="Электрички">
+          </picture>
         </a>
       </section>
     </main>

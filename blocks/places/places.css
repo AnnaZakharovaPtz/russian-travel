@@ -2,3 +2,35 @@
   max-width: 984px;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .places {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 928px) {
+  .places {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .places {
+    max-width: 590px;
+  }
+}
+
+
+@media screen and (max-width: 590px) {
+  .places {
+    max-width: 320px;
+  }
+}

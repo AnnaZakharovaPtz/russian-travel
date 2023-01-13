@@ -1,6 +1,6 @@
 .header__lang-menu {
   display: inline-grid;
-  column-gap: 16px;
+  column-gap: 18px;
   grid-template-columns: 1fr 1fr;
   padding-bottom: 6px;
   padding-top: 18px;
