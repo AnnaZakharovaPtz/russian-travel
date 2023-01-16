@@ -4,18 +4,28 @@
   font-size: 18px;
   line-height: 1.63;
   padding-bottom: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.place__paragraph:last-child {
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 1.63;
+    padding-bottom: 25px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .place__paragraph {
     margin: 0 16px;
+    padding-bottom: 25px;
+  }
+
+  .place__paragraph:last-child {
     padding-bottom: 25px;
   }
 }

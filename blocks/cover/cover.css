@@ -2,6 +2,10 @@
   max-width: 1184px;
   margin: 12px auto 92px auto;
   position: relative;
+  background-image: url(../../images/cover-background-l.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1024px) {
@@ -15,6 +19,7 @@
     max-width: 768px;
     margin-top: 10px;
     margin-bottom: 88px;
+    background-image: url(../../images/cover-background-m.png);
   }
 }
 
@@ -30,5 +35,6 @@
     max-width: 320px;
     margin-top: 16px;
     margin-bottom: 64px;
+    background-image: url(../../images/cover-background-s.png);
   }
 }

@@ -4,7 +4,10 @@
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 2px;
+  text-transform: uppercase;
   color: #AAAAAA;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   padding-bottom: 12px;
 }
 
