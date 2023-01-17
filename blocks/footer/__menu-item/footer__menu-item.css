@@ -8,3 +8,9 @@
     padding-bottom: 32px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .footer__menu-item:last-child {
+    padding-bottom: 48px;
+  }
+}

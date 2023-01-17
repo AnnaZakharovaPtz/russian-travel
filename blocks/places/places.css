@@ -10,26 +10,26 @@
   }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 948px) {
   .places {
     max-width: 768px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .places {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
   .places {
     max-width: 590px;
   }
 }
 
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 610px) {
   .places {
     max-width: 320px;
   }

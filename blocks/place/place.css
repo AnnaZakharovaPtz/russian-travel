@@ -13,28 +13,27 @@
   }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 948px) {
   .place {
     grid-template-columns: 340px 400px;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 788px) {
   .place {
     grid-template-columns: 340px 352px;
-    column-gap: 28px;
     padding-bottom: 73px;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 740px) {
   .place {
     grid-template-columns: 290px 272px;
   }
 }
 
-@media screen and (max-width: 590px) {
+@media screen and (max-width: 610px) {
   .place {
     grid-template-columns: 320px;
     row-gap: 32px;
